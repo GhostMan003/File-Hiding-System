@@ -1,12 +1,12 @@
 # Software working processes
 
-1. Sign in using your registered Email id
+1. Sign in using your registered email address.
 ![Sign_in](https://github.com/GhostMan003/File-Hiding-System/assets/122271680/221f22a5-ec9a-4d89-96e2-d315ab924815)
 
-2. Enter your Email id generate OTP verify Email click Sign in button (till your otp not verify sign in button remain disable)
+2. Enter your email id, generate an OTP, and verify the email. Click the Sign in button (till your OTP does not verify, the sign in button remains disabled).
 ![sign_in_otp_verify](https://github.com/GhostMan003/File-Hiding-System/assets/122271680/d5db5450-a29c-4ea3-99a0-c3a81b4e4451)
 
-3. If your email was not registered, then the verify check box will not be visible. Click the sign-up button to create a new account.
+3. If your email was not registered, then the verify check box will not be visible. Click genrate otp, verify email address, and click the sign-up button to create a new account.
 ![Sign_up](https://github.com/GhostMan003/File-Hiding-System/assets/122271680/3517476a-8c51-43ad-a980-c09091b3e4a7)
 
 4. Enter your name and (uniqe) email ID to generate an OTP verify your email.
