@@ -56,14 +56,6 @@ public class Data_DAO {
             fill.delete();
             return equary;
         }
-//        if (fill.exists()) {
-//            FileReader file_read = new FileReader(fill);
-//            statement.setCharacterStream(4,file_read,fill.length());
-//            int equary = statement.executeUpdate();
-//            file_read.close();
-//            fill.delete();
-//            return equary;
-//        }
         return -1;
     }
 
@@ -88,6 +80,5 @@ public class Data_DAO {
         statement = connection.prepareStatement("DELETE FROM DATA WHERE ID = ?");
         statement.setInt(1,id);
         statement.executeUpdate();
-//        System.out.println("Successfully remove the file");
     }
 }

@@ -39,7 +39,7 @@ public class Add_Files extends JFrame implements ActionListener {
         getContentPane().setBackground(Color.LIGHT_GRAY);
         setSize(650,500);
         setLocation(x_loc, y_loc);
-//        setUndecorated(true);
+        setUndecorated(true);
     }
 
     public void labelMethods() {
@@ -126,11 +126,5 @@ public class Add_Files extends JFrame implements ActionListener {
                 path_field.setText("");
             }
         }
-
     }
-
-//    public static void main(String[] args) {
-//        int x_loc = 880, y_loc = 330;
-//        new Add_Files("anuragghosh202@gmail.com",x_loc, y_loc).setVisible(true);
-//    }
 }

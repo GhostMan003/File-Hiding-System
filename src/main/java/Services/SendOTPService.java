@@ -11,7 +11,7 @@ public class SendOTPService {
         String to = email;
 
         // Sender's email ID needs to be mentioned
-        String from = "bbanerjee239@gmail.com";
+        String from = "Your Email Address";
 
         // Assuming you are sending email from through gmails smtp
         String host = "smtp.gmail.com";
@@ -30,7 +30,7 @@ public class SendOTPService {
 
             protected PasswordAuthentication getPasswordAuthentication() {
 
-                return new PasswordAuthentication(from, "dqcm nhhb putz cpsj");
+                return new PasswordAuthentication(from, "App Key Password");
 
             }
 
@@ -53,7 +53,7 @@ public class SendOTPService {
             message.setSubject("File Hide OTP");
 
             // Now set the actual message
-            message.setText("Your One time Password for File Hide apk is: " + genOTP);
+            // message.setText("Your One time Password for File Hide apk is: " + genOTP);
 
             System.out.println("sending......");
             // Send message
@@ -62,7 +62,5 @@ public class SendOTPService {
         } catch (MessagingException mex) {
             mex.printStackTrace();
         }
-
     }
-
 }

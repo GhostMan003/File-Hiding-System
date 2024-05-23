@@ -37,9 +37,8 @@ public class Sign_In extends JFrame implements ActionListener {
 
         getContentPane().setBackground(Color.LIGHT_GRAY);
         setSize(650,500);
-//        setLocation();
         setLocation(x_loc,y_loc);
-//        setUndecorated(true);
+        setUndecorated(true);
     }
 
     public void labelMethod() {
@@ -173,10 +172,5 @@ public class Sign_In extends JFrame implements ActionListener {
             setVisible(false);
             new Sign_Up(x_loc,y_loc).setVisible(true);
         }
-
     }
-
-//    public static void main(String[] args) {
-//        new Sign_In().setVisible(true);
-//    }
 }

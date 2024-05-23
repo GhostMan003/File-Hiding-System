@@ -41,7 +41,7 @@ public class Remove_Files extends JFrame implements ActionListener {
         getContentPane().setBackground(Color.LIGHT_GRAY);
         setSize(650,500);
         setLocation(x_loc, y_loc);
-//        setUndecorated(true);
+        setUndecorated(true);
     }
 
     public void labelMethods() {
@@ -129,8 +129,4 @@ public class Remove_Files extends JFrame implements ActionListener {
             }
         }
     }
-
-//    public static void main(String[] args) {
-//        new Remove_Files("captainbiki100@gmail.com").setVisible(true);
-//    }
 }

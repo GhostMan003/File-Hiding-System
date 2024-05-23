@@ -44,7 +44,7 @@ public class Show_Files extends JFrame implements ActionListener {
         getContentPane().setBackground(Color.LIGHT_GRAY);
         setSize(650,500);
         setLocation(x_loc, y_loc);
-//        setUndecorated(true);
+        setUndecorated(true);
     }
 
     public void labelMethods() {
@@ -99,8 +99,4 @@ public class Show_Files extends JFrame implements ActionListener {
             JOptionPane.showMessageDialog(null,"Wrong Input");
         }
     }
-
-//    public static void main(String[] args) {
-//        new Show_Files("captainbiki100@gmail.com").setVisible(true);
-//    }
 }

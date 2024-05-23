@@ -41,7 +41,7 @@ public class Home_Interface extends JFrame implements ActionListener {
         getContentPane().setBackground(Color.LIGHT_GRAY);
         setSize(650,500);
         setLocation(x_loc,y_loc);
-//        setUndecorated(true);
+        setUndecorated(true);
     }
     public void labelMethods(String email) throws SQLException {
         user_label = new JLabel();
@@ -117,8 +117,4 @@ public class Home_Interface extends JFrame implements ActionListener {
             new Remove_Files(e_mail,x_loc, y_loc).setVisible(true);
         }
     }
-
-//    public static void main(String[] args) {
-//        new Home_Interface("captainbiki100@gmail.com").setVisible(true);
-//    }
 }
