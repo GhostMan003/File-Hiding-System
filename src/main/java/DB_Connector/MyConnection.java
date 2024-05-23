@@ -6,16 +6,15 @@ public class MyConnection {
     public static Connection connection = null;
 
     public  static  Connection getConnection(){
-        String url = "jdbc:mysql:///GUIProjectDatabase?useSSL=false";
+        String url = "jdbc:mysql:///database name";
         final String userName = "root";
-        final String password = "neo@4321";
+        final String password = "pasword";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(url,userName,password);
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
-//        System.out.println("Connection Done");
         return connection;
     }
     public static void closeConnection(){
@@ -27,8 +26,4 @@ public class MyConnection {
             }
         }
     }
-
-//   public static void main(String[] args) {
-//       MyConnection.getConnection();
-//   }
 }
