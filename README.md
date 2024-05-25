@@ -13,8 +13,12 @@ The project allows the following operations:
 
 The technology used in this project is:
 
-1. Java Swing
-2. Java AWT
-3. Java SQL
-4. MYSQL server
-5. Maven 
+• Java Swing
+
+• Java AWT
+
+• Java SQL
+
+• MYSQL server
+
+• Maven 
